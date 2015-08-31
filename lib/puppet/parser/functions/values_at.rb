@@ -69,7 +69,7 @@ Would return ['a','c','d'].
           when /^(\.\.\.)$/  then (start ... stop) # Exclusive of last element ...
         end
 
-        range.each { |i| indices_list << i.to_i }
+        range.each { |ii| indices_list << ii.to_i }
       else
         # Only positive numbers allowed in this case ...
         if not i.match(/^\d+$/)
